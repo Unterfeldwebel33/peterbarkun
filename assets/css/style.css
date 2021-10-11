@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Gilroy", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: #fff;
+  color: #fff;;
   text-decoration: none;
 }
 #header .profile .social-links a {
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .profile .social-links a:hover {
   background: #fff;
-  color: #fff;
+  color: #434343;
   text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #DF1D38;
 }
 .nav-menu a:hover i{
-  color: #434343;
+  color: #4343;
 }
 
 /* Mobile Navigation */
