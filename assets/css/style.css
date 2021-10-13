@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
-      url("fonts/Gilroy-SemiBold.woff") format('woff');
+      url("fonts/Gilroy-SemiBold.ttf") format('ttf');
   font-weight: 600;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: local('Gilroy Medium'), local('Gilroy-Medium'),
-      url("fonts/Gilroy-Medium.woff") format('woff');
+      url("fonts/Gilroy-Medium.ttf") format('ttf');
   font-weight: 500;
   font-style: normal;
 }
@@ -25,8 +25,20 @@ a {
   text-decoration: none;
 }
 
+a.figma{
+  color: #272829;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  a.figma {
+    color: #FFBC00;
+    text-decoration: none;
+  }
+}
+
 a:hover {
-  color: #37b3ed;
+  color: #FFBC00;
   text-decoration: none;
 }
 
@@ -175,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 650;
 }
 .nav-menu .active i, .nav-menu .active:focus i > a i {
-  color: #DF1D38;
+  color: #FFBC00;
 }
 .nav-menu a:hover i{
   color: #4343;
@@ -216,8 +228,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg3.jpg") top center;
   background-size: cover;
+  background-position: center;
+  
 }
 #hero:before {
   content: "";
@@ -251,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #DF1D38;
+  border-bottom: 3px solid #FFBC00;
   ;
 }
 @media (min-width: 1024px) {
@@ -260,9 +274,33 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 2560px) {
+  #hero{
+    background-position-y: 28%;
+  }
+}
+
+@media (max-width: 1920px) {
+  #hero{
+    background-position-y: 30%;
+  }
+}
+
+@media (max-width: 1440px) {
+  #hero{
+    background-position-y: 34%;
+  }
+}
+
+@media (max-width: 1368px) {
+  #hero{
+    background-position-y: 32%;
+  }
+}
+
 @media (max-width: 768px) {
   #hero{
-    background-position-x:  39%;
+    background-position-x: 65%;
   }
 }
 
@@ -324,7 +362,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #DF1D38;
+  background: #FFBC00;
   bottom: 0;
   left: 0;
 }
@@ -443,7 +481,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #DF1D38;
+  background-color: #FFBC00;
   border-radius: 20px;
 }
 
@@ -529,7 +567,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #DF1D38;
+  color: #FFBC00;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
