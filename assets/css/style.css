@@ -4,6 +4,7 @@
       url("fonts/Gilroy-SemiBold.ttf") format('ttf');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,11 +13,12 @@
       url("fonts/Gilroy-Medium.ttf") format('ttf');
   font-weight: 500;
   font-style: normal;
+  
 }
 
 
 body {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
   color: #272829;
 }
 
@@ -35,6 +37,13 @@ a.phone{
   text-decoration: none;
 }
 
+a.cont_phone{
+  color: #272829;
+  text-decoration: none;
+  font-family: "Gilroy", "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
 @media (max-width: 1024px) {
   a.figma {
     color: #FFBC00;
@@ -48,12 +57,12 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
 }
 
 @media (min-width: 1920px) {
     p{
-      font-family: "Gilroy", sans-serif;
+      font-family: "Gilroy", "Montserrat", sans-serif;
       font-size: 18px;
     }
 }
@@ -119,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;;
@@ -280,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 25.5px;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
 }
 #hero p span {
   color: #fff;
@@ -485,7 +494,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 16px;
   color: #122f57;
 }
@@ -495,7 +504,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
@@ -522,7 +531,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
@@ -563,7 +572,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
