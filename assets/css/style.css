@@ -871,6 +871,7 @@ section {
   padding-bottom: 130px;
 }
 .contact .info {
+  border-radius: 15px;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -882,7 +883,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -927,10 +928,11 @@ section {
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #fff;
+  background: #FFBC00;
   color: #fff;
 }
 .contact .php-email-form {
+  border-radius: 15px;
   width: 100%;
   padding: 30px;
   background: #fff;
@@ -996,9 +998,11 @@ section {
 }
 .contact .php-email-form input {
   height: 44px;
+  border-radius: 5px;
 }
 .contact .php-email-form textarea {
   padding: 10px 15px;
+  border-radius: 5px;
 }
 .contact .php-email-form button[type=submit] {
   background: #fff;
