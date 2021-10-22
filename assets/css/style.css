@@ -30,6 +30,11 @@ a.figma{
   text-decoration: none;
 }
 
+a.phone{
+  color: #FFBC00;
+  text-decoration: none;
+}
+
 @media (max-width: 1024px) {
   a.figma {
     color: #FFBC00;
