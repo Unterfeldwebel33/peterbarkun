@@ -760,7 +760,7 @@ section {
   line-height: 0;
 }
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #FFBC00;
 }
 .services .icon-box:hover .icon i {
   color: #fff;
@@ -774,9 +774,7 @@ section {
 .services .title a {
   color: #343a40;
 }
-.services .title a:hover {
-  color: #fff;
-}
+
 .services .description {
   margin-left: 80px;
   line-height: 24px;
