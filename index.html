@@ -84,10 +84,10 @@
     <div class="hero-container" data-aos="fade-in">
       <div class="hero-container-desc">
         <h1>Пётр Баркун</h1>
-        <p>Я занимаюсь <span class="typed" data-typed-items="UX/UI дизайном, графическим дизайном, разработкой логотипов, дизайном упаковок, полиграфией, веб-разработкой, фотографией"></span></p>
+        <p>Я занимаюсь <span class="typed" data-typed-items="UX/UI дизайном, html-баннерами, логотипами, иллюстрацией, веб-разработкой, фотографией, дизайном упаковок, полиграфией"></span></p>
       </div>
       
-      <a href="#contact" class="button button--flex">Обсудить проект<i class="bi bi-chevron-double-right" style="margin-left: 10px;"></i></a>
+      <a href="#popup" class="button button--flex">Обсудить проект<i class="bi bi-chevron-double-right" style="margin-left: 10px;"></i></a>
     </div>
   </section><!-- End Hero -->
 
@@ -99,7 +99,8 @@
 
         <div class="section-title">
           <h2>Немного обо мне</h2>
-          <p>Люблю работу в команде, могу выполнять индивидуальные задания. Быстро нахожу общий язык в коллективе. Трудолюбив, ответственен, исполнителен. Постоянно развиваюсь в профессиональном плане, прохожу стажировки и посещаю профильные семинары, иду в ногу с передовыми технологиями IT-отрасли. Веду здоровый образ жизни, вредных привычек не имею. Не женат.</p>
+          <p>Люблю работу в команде, могу выполнять индивидуальные задания. Быстро нахожу общий язык в коллективе. Трудолюбив, ответственен, исполнителен. Постоянно развиваюсь
+          в профессиональном плане, прохожу стажировки и посещаю профильные семинары, иду в ногу с передовыми технологиями IT-отрасли. Веду здоровый образ жизни, вредных привычек не имею. Не женат.</p>
         </div>
 
         <div class="row">
@@ -130,8 +131,7 @@
             </div>
             <p>
              Профильное техническое образование позволяет мне хорошо поддерживать связь с разработчиками, понимать различные тонкости технических моментов.
-
-              На данный момент прохожу срочную службу в вооруженных силах Республики Беларусь, в роте информационных технологий на позиции UI/UX Дизайнера.              
+             На данный момент прохожу срочную службу в вооруженных силах Республики Беларусь, в роте информационных технологий на позиции UI/UX Дизайнера.              
             </p>
           </div>
         </div>
@@ -611,11 +611,11 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Ваше имя</label>
+                  <label for="name">Укажите Ваше имя</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Ваша почта</label>
+                  <label for="name">Укажите Вашу почту</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
@@ -628,7 +628,11 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="button-send-nudes button--flex">
+                <a href="#contact" > Отправить
+                  <i class="bi bi-chevron-double-right" style="margin-left: 10px;"></i>
+                </a>
+              </div>
             </form>
           </div>
 
@@ -649,6 +653,20 @@
       </div>
     </div>
   </footer><!-- End  Footer -->
+
+  <div id="popup" class="popup">
+    <a href="#header" class="popup_area"></a>
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="#header" class="popup_close"></a>
+        <div class="popup_title">Новый проект</div>
+        <div class="popup_descr">
+          Для начала работы расскжите о своем проекте, оставьте контакты, и я свяжусь с Вами, чтобы все обсудить.
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
