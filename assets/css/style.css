@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 25.5px;
   font-family: "Gilroy", "Montserrat", sans-serif;
 }
@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 
   @media (max-width: 768px) {
     #hero p {
-      margin-bottom: 0;
+      margin-bottom: 10px;
       font-size: 16px;
       line-height: 36px;
     }
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 
   @media (max-width: 320px) {
     #hero p {
-      margin-bottom: 0;
+      margin-bottom: 10px;
       font-size: 14px;
       line-height: 36px;
     }
@@ -369,6 +369,40 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+}
+
+.button{
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 20px 10px;
+  box-shadow: 0px 0px 30px #FFBC00;
+  border: 3px solid #F9BB4B;
+  box-sizing: border-box;
+}
+
+@media (max-width: 414px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+  }
+  .hero-container-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
   }
 }
 
