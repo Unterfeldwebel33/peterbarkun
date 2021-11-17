@@ -14,6 +14,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/favicon.svg" rel="icon">
   <link rel="icon" href="https://peterbarkun.art/assets/img/favicon.ico" type="image/x-icon">
 
   <!-- Vendor CSS Files -->
@@ -699,9 +700,39 @@
       <a href="#header" class="popup_close"><i class="bx bx-x"></i></a>
     </div>
       <div class="popup_descr">
-        Для начала работы расскжите о своем проекте, оставьте контакты, и я свяжусь с Вами,</br>
-        чтобы все обсудить.
+        Для начала работы расскжите о своем проекте, оставьте контакты, и я свяжусь с Вами, чтобы все обсудить.
       </div>
+
+      <div class="popup_form">
+
+        <div class="row" data-aos="fade-in">
+          </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Укажите Ваше имя</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Укажите Вашу почту</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Расскажите о Вашем проекте</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="button-send-nudes button--flex">
+                <a href="#contact" > Отправить
+                  <i class="bi bi-chevron-double-right" style="margin-left: 10px;"></i>
+                </a>
+              </div>
+            </form>
+
+        </div>
+
+      </div>
+
     </div>
   </div>
 </div>
