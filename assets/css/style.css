@@ -36,7 +36,7 @@ a.figma{
 }
 
 a.phone{
-  color: #FFBC00;
+  color: #0004ff;
   text-decoration: none;
 }
 
@@ -49,13 +49,13 @@ a.cont_phone{
 
 @media (max-width: 1024px) {
   a.figma {
-    color: #FFBC00;
+    color:#0004ff;
     text-decoration: none;
   }
 }
 
 a:hover {
-  color: #FFBC00;
+  color: #0004ff;
   text-decoration: none;
 }
 
@@ -944,10 +944,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #fff;
+  border: 1px solid #272727;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+  background-color: #272727;
 }
 
 /*--------------------------------------------------------------
@@ -1202,6 +1202,7 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+    background-color: #272829;
   }
 }
 
